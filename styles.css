@@ -10,10 +10,6 @@ text-align: center;
 
 .friend {
     background-color: #D826A3;
-  
-    text-align: center;
+    text-align: left;
 }
 
-.friend p {
-    text-transform: uppercase;
-}

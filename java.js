@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
     button.innerText = "Sing!";
     button.addEventListener("click", function () {
         for (var i = 0; i < friendsArray.length; i++) {
-            //console.log(friendsArray[i]);
             var div = document.createElement("div");
             div.className ="friend";
             var h3 = document.createElement("h3");
@@ -30,25 +29,27 @@ document.addEventListener("DOMContentLoaded", function () {
                 paragraph.appendChild(text);
                 div.appendChild(paragraph);
 
-               
+                
             }
             else {
                 var paragraph = document.createElement("p");
                 var text = document.createTextNode(j + " line of code in the file, " + j + " line of code; " + friendsArray[i] + " strikes one out, clears it all out, " + (j - 1) + " lines of code in the file" )
                 paragraph.appendChild(text);
                 div.appendChild(text);
-            
+                
+            }
             }
 
 
 
 
 
-        
+            
         }
     });
     document.body.appendChild(button);
 });
+
 
 
 
