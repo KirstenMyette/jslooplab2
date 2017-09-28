@@ -1,0 +1,19 @@
+body {
+    background-color: purple;
+}
+
+h1 {
+color: #0F21EB;
+text-shadow: 1px 1px black;
+text-align: center;
+}
+
+.friend {
+    background-color: #D826A3;
+    height: 10em;
+    text-align: center;
+}
+
+.friend p {
+    text-transform: uppercase;
+}
