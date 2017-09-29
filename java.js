@@ -12,10 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
             h3.appendChild(text);
             div.appendChild(h3);
             document.body.appendChild(div);
-         
-            
-         
-
+        
             for (j = 99; j > 0; j--) {         
             if (j === 2) { 
                 var paragraph = document.createElement('p'); 
@@ -28,14 +25,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 var text = document.createTextNode(j + " line of code in the file, " + j + " line of code; " + friendsArray[i] + " strikes one out, clears it all out,  no more lines of code in the file" );
                 paragraph.appendChild(text);
                 div.appendChild(paragraph);
-
-                
             }
             else {
                 var paragraph = document.createElement("p");
                 var text = document.createTextNode(j + " line of code in the file, " + j + " line of code; " + friendsArray[i] + " strikes one out, clears it all out, " + (j - 1) + " lines of code in the file" )
                 paragraph.appendChild(text);
-                div.appendChild(text);
+                div.appendChild(paragraph);
                 
             }
             }
